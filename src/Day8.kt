@@ -36,7 +36,7 @@ e   f
  ggg
  */
 
-val originalSegs = listOf("abcefg", "cf", "acdeg", "acdfg", "bcdf", "abdfg", "abdefg", "acf", "abcdefg", "abcdfg").map { it.toList() }
+private val originalSegs = listOf("abcefg", "cf", "acdeg", "acdfg", "bcdf", "abdfg", "abdefg", "acf", "abcdefg", "abcdfg").map { it.toList() }
 
 private fun part2(input: List<String>) {
     var ttl = 0
