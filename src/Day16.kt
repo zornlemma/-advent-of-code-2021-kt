@@ -8,7 +8,7 @@ private fun List<Int>.subVal(startIdx: Int, endIdx: Int): Int {
     return acc
 }
 
-data class PacketInfo(
+private data class PacketInfo(
         val version: Int,
         val nextIdx: Int,
         val value: Long,
